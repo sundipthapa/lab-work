@@ -5,7 +5,7 @@
 
 std=int(input("Enter a the no of students: "))
 apple=int(input("Enter the no of apples: "))
-x=apple//std
-y=aaple % std
+x=apple//std   #x is the apple of each students will get:(no of apples // no of students)
+y=aaple % std   #y Remaining Apples (no of apples % no of students )
 print(f"The number of apple each student will get:{x}")
 print(f"The remaining no of apple in the basket:{y}")

@@ -9,6 +9,7 @@
 
 a=int(input("Enter the no of std in the first class"))
 b=int(input("Enter the no of std in the second class"))
+
 c=int(input("Enter the no of std in third class"))
 sum=a//2+b//2+c//2+a*2+b%2+c%2
 print(f"The total no of desks we needed is:{sum}")
