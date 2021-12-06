@@ -1,6 +1,10 @@
-#WAP which accepts marks of four subjects and display total marks, percentage
-#and grade. Hint: more than 70% -> distinction, more than 60% -> first, more than 40% -> pass,
-#less than 40% ->fail
+"""
+Question:
+WAP which accepts marks of four subjects and display total marks, percentage
+and grade. Hint: more than 70% -> distinction, more than 60% -> first, more 
+than 40% -> pass, less than 40% ->fail
+
+"""
 
 a=int(input("Enter a marks of first subject: "))
 b=int(input("Enter a marks of second subject: "))

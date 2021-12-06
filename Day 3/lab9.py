@@ -5,18 +5,24 @@ Take username and password from user and check it again for the three times whet
  If not then print invalid credentials for consecutive 3 times and if the limit exceeds than print 
  "Attempt finished" 
 """
-print("Enter correct username and password combo to continue")
-count=0
-while password!='Sun12dip'  and username!='sundeep' and count<3:
-      username=input("Enter your username: ")
-      password=input("Enter your password: ")
-      
-if password=='Sun12dip' and  username=='sundeep':
-    print("login successfully")
-else:
-    print("Invalid Credientals")
-    count +=1
 
+
+
+username=input("Enter your username: ")
+password=input("Enter your password: ")
+
+for i in range(0,3):
+    print("Enter your credentials")
+    username1=input("Enter your username: ")
+    password1=input("Enter you password: ")
+    if username==username1 and password==password1:
+        print("YOur are successfully logged.")
+        break
+    elif i<3:
+        if(username!=username1 and password!=password1 and i<3):
+            print("Invalid Credentials")
+else :
+    print("3 Attempt finished")
 
     
     
