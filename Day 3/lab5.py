@@ -6,7 +6,9 @@ if it is 0
 """
 
 x=int(input("Enter any integer:"))
-if x>=0:
+if x>0:
     print("True")
-else:
+elif x<0:
     print("False")
+else:
+    print("Zero")

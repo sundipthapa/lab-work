@@ -1,6 +1,6 @@
 #find sum of first 10 even numbers?
 n= int(input("Enter number upto which you want to add even numbers"))
-i=2
+i=1
 sum= 0
 
 while (i<=n): 

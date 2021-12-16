@@ -17,5 +17,3 @@ if percentage<=75:
     print("A student will not be allowed to sit in exam.")
 elif percentage>75:
     print("A student is allowed to sit in exam")
-else:
-    print("Sorry")
